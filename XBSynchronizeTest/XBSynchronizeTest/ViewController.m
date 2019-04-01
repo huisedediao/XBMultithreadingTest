@@ -51,6 +51,10 @@ static NSString *cellReuseID = @"cellReuseID";
     {
         [self.navigationController pushViewController:[NSClassFromString(@"ThreadSynchronizeTestViewController") new] animated:YES];
     }
+    if (indexPath.row == 2)
+    {
+        [self.navigationController pushViewController:[NSClassFromString(@"SuspendAndResumeTestViewController") new] animated:YES];
+    }
 }
 
 - (NSArray *)arr_dataSource
@@ -58,7 +62,8 @@ static NSString *cellReuseID = @"cellReuseID";
     if (_arr_dataSource == nil)
     {
         _arr_dataSource = @[@"同步、异步、串行、并行之间组合测试",
-                            @"线程同步技术测试 - 1"];
+                            @"线程同步技术测试 - 1",
+                            @"挂起，唤醒"];
     }
     return _arr_dataSource;
 }

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F12F1F8321C8C729007FB428 /* QueueAndSyncTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12F1F8221C8C729007FB428 /* QueueAndSyncTestViewController.m */; };
 		F12F1F8621C8C7B3007FB428 /* ThreadSynchronizeTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12F1F8521C8C7B3007FB428 /* ThreadSynchronizeTestViewController.m */; };
+		F1878EC32251AB4C00967809 /* SuspendAndResumeTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1878EC22251AB4C00967809 /* SuspendAndResumeTestViewController.m */; };
 		F1D3A9AE1FB1A04600DF1387 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D3A9AD1FB1A04600DF1387 /* main.m */; };
 		F1D3A9B11FB1A04600DF1387 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D3A9B01FB1A04600DF1387 /* AppDelegate.m */; };
 		F1D3A9B41FB1A04600DF1387 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D3A9B31FB1A04600DF1387 /* ViewController.m */; };
@@ -41,6 +42,8 @@
 		F12F1F8221C8C729007FB428 /* QueueAndSyncTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueAndSyncTestViewController.m; sourceTree = "<group>"; };
 		F12F1F8421C8C7B3007FB428 /* ThreadSynchronizeTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadSynchronizeTestViewController.h; sourceTree = "<group>"; };
 		F12F1F8521C8C7B3007FB428 /* ThreadSynchronizeTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreadSynchronizeTestViewController.m; sourceTree = "<group>"; };
+		F1878EC12251AB4C00967809 /* SuspendAndResumeTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuspendAndResumeTestViewController.h; sourceTree = "<group>"; };
+		F1878EC22251AB4C00967809 /* SuspendAndResumeTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuspendAndResumeTestViewController.m; sourceTree = "<group>"; };
 		F1D3A9A91FB1A04600DF1387 /* XBSynchronizeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBSynchronizeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D3A9AD1FB1A04600DF1387 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1D3A9AF1FB1A04600DF1387 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,6 +94,8 @@
 				F12F1F8221C8C729007FB428 /* QueueAndSyncTestViewController.m */,
 				F12F1F8421C8C7B3007FB428 /* ThreadSynchronizeTestViewController.h */,
 				F12F1F8521C8C7B3007FB428 /* ThreadSynchronizeTestViewController.m */,
+				F1878EC12251AB4C00967809 /* SuspendAndResumeTestViewController.h */,
+				F1878EC22251AB4C00967809 /* SuspendAndResumeTestViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -296,6 +301,7 @@
 				F12F1F8621C8C7B3007FB428 /* ThreadSynchronizeTestViewController.m in Sources */,
 				F1D3A9B11FB1A04600DF1387 /* AppDelegate.m in Sources */,
 				F12F1F8321C8C729007FB428 /* QueueAndSyncTestViewController.m in Sources */,
+				F1878EC32251AB4C00967809 /* SuspendAndResumeTestViewController.m in Sources */,
 				F1D3A9AE1FB1A04600DF1387 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
